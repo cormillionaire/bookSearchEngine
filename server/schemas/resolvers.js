@@ -42,7 +42,7 @@ const resolvers = {
         { _id: id },
         {
           $addToSet: {
-            books: [{ bookId }],
+            savedBooks: [{ bookId }],
           },
         },
         {
